@@ -1,0 +1,36 @@
+{
+	"authHost": "http://192.168.1.102/chatApp/public/",
+	"authEndpoint": "/broadcasting/auth",
+	"clients": [
+		{
+			"appId": "4d55d7631b15a0fc",
+			"key": "190aaca7034ff084447a43c0467a695e"
+		}
+	],
+	"database": "redis",
+	"databaseConfig": {
+		"redis": {},
+		"sqlite": {
+			"databasePath": "/database/laravel-echo-server.sqlite"
+		}
+	},
+	"devMode": false,
+	"host": null,
+	"port": "6001",
+	"protocol": "http",
+	"socketio": {},
+	"sslCertPath": "",
+	"sslKeyPath": "",
+	"sslCertChainPath": "",
+	"sslPassphrase": "",
+	"subscribers": {
+		"http": true,
+		"redis": true
+	},
+	"apiOriginAllow": {
+		"allowCors": true,
+		"allowOrigin": "",
+		"allowMethods": "",
+		"allowHeaders": ""
+	}
+}
